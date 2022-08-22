@@ -1,11 +1,14 @@
 body {
-    background-color: #f3f2f3;
+    background-color: #f1eff1;
     margin: 0;
     padding: 0;
+    background-image:url(https://i.ibb.co/ScbW2z8/1288100.jpg);
+    background-repeat:repeat-x;
 }
 
 header {
     text-align: center;
+    color: aliceblue;
 }
 
 #messages{
@@ -15,17 +18,17 @@ header {
 li {
     list-style-type: none;
     margin-bottom: 10px;
-    background-color: #6929ca;
+    background-color: #e5e1ec6c;
     padding: 5px;
-    border-radius: 10px;
-    color: white;
+    border-radius: 50px;
+    color: rgb(26, 24, 24);
     width: 50%;
 }
 
 li span {
-    font-style: italic;
+    font-style: blod;
     font-weight: bolder;
-    color: #b5b0b9;
+    color: #e73872;
 }
 
 #chat {
@@ -50,15 +53,16 @@ input {
 button {
     width: 25%;
     height: 38px;
+    background-color: #38dbe7;
 }
 
 .sent {
     text-align: right;
-    background-color: #a79cb3;
+    background-color: #d6d0db;
     margin-left: 50%;
 }
 
 .sent span {
     margin-left: 5px;
-    color: #6929ca;
+    color: #6231aa;
 }
